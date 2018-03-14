@@ -1,0 +1,76 @@
+<style>
+	.dashboard-brick {
+		background-color: blue;
+		text-align: center;
+		vertical-align: middle;
+		height: 100px;
+		display: table;
+		width: 100%;
+		color: white;
+	}    
+	.dashboard-brick span {
+		vertical-align:middle;
+		display: table-cell;
+	}
+  
+</style>
+
+<div style="margin: 5px;">
+	<div class="section-body">
+		<div class="row">
+			<div class="form-column col-sm-3">
+				<div class="dashboard-brick">
+					<span><div class="opportunity_count"><h1>-</h1></div>
+					<p>{{ __("Opportunities") }}</p></span>
+				</div>
+			</div>
+	
+			<div class="form-column col-sm-3">
+				<div class="dashboard-brick">
+					<span><div class="quotations_ytd"><h1>-</h1></div>
+					<p>{{ __("Quotations YTD") }}</p></span>
+				</div>
+			</div>
+		
+			<div class="form-column col-sm-3">
+				<div class="dashboard-brick">
+					<span><div class="sales_orders_ytd"><h1>-</h1></div>
+					<p>{{ __("Sales Orders YTD") }}</p></span>
+				</div>
+			</div>
+
+			<div class="form-column col-sm-3">
+				<div class="dashboard-brick">
+					<span><div class="sales_invoices_ytd"><h1>-</h1></div>
+					<p>{{ __("Sales Invoices YTD") }}</p></span>
+				</div>
+			</div>
+		</div>
+		<p></p>
+
+		<div class="row">
+			<div class="form-column col-sm-4">
+				<div class="dashboard-brick">
+					<span><div class="quotations_py"><h1>-</h1></div>
+					<p>{{ __("Quotations PY") }}</p></span>
+				</div>
+			</div>
+	
+			<div class="form-column col-sm-4">
+				<div class="dashboard-brick">
+					<span><div class="sales_orders_py"><h1>-</h1></div>
+					<p>{{ __("Sales Orders PY") }}</p></span>
+				</div>          
+			</div>
+
+			<div class="form-column col-sm-4">
+				<div class="dashboard-brick">          
+					<span><div class="sales_invoices_py"><h1>-</h1></div>
+					<p>{{ __("Sales Invoices PY") }}</p></span>
+				</div>
+			</div>
+	
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,24 @@
+{
+ "content": null, 
+ "creation": "2018-03-14 14:20:19.944234", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "icon": "fa fa-dashboard", 
+ "idx": 0, 
+ "modified": "2018-03-14 14:20:19.944234", 
+ "modified_by": "Administrator", 
+ "module": "My Dashboard", 
+ "name": "my_dashboard", 
+ "owner": "Administrator", 
+ "page_name": "my_dashboard", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "system_page": 0, 
+ "title": "MY Dashboard"
+}
